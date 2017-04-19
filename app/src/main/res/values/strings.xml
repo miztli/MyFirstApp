@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyFirstApp</string>
+    <string name="welcome_message">Hello World!</string>
+    <string name="change_message">Change Hello World!</string>
 </resources>
