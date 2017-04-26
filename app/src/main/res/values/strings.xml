@@ -2,4 +2,7 @@
     <string name="app_name">MyFirstApp</string>
     <string name="welcome_message">Hello World!</string>
     <string name="change_message">Change Hello World!</string>
+    <string name="click_me">Say hello!</string>
+    <string name="new_activity">New activity!</string>
+    <string name="text_name">name</string>
 </resources>
