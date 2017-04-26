@@ -19,15 +19,32 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    /**
+     *
+     * @param view
+     */
     public void sendMessage(View view){
         String name = ((TextView)findViewById(R.id.editTextHelloWorld)).getText().toString();
         ((TextView)findViewById(R.id.textView_welcome)).setText("Welcome: " + name + "!");
     }
 
+    /**
+     *
+     * @param view
+     */
     public void startAnotherActivity(View view){
         Intent intent = new Intent(this, AnotherActivity.class);
         EditText editText = (EditText) findViewById(R.id.editTextAnotherActivity);
         intent.putExtra(EXTRA_MESSAGE, editText.getText().toString());
+        startActivity(intent);
+    }
+
+    /**
+     *
+     * @param view
+     */
+    public void startLocaleActivity(View view){
+        Intent intent = new Intent(this, LocaleActivity.class);
         startActivity(intent);
     }
 }

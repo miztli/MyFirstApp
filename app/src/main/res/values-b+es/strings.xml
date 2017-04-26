@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiPrimeraApp</string>
+    <string name="welcome_message">¡Hola mundo!</string>
+    <string name="click_me">¡Di hola!</string>
+    <string name="new_activity">¡Nueva actividad!</string>
+    <string name="text_name">nombre</string>
+    <string name="text_locale">¡Bienvenido!</string>
+    <string name="show_locale">¡Prueba local!</string>
+</resources>
