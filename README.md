@@ -1,5 +1,7 @@
 # MyFirstApp
 
+> Basic concepts
+
 Android first application project example
 
 ###Features
